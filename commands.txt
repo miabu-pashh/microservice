@@ -1,0 +1,55 @@
+@Id
+	@GeneratedValue
+	private int itemId;
+	private String name;
+	private String brand;
+	private String sessionId;
+
+
+for item file..
+
+@Id
+	@GeneratedValue
+	private int id;
+	private String name;
+	private String design;
+	private int price;
+	private String size;
+
+
+
+<version>2.2.10.RELEASE</version>
+
+
+http://localhost:8761/    (eureka link)
+http://localhost:9191/actuator/hystrix.stream   (hystrix stream)
+http://localhost:9295/hystrix  (hystrix dashboard) apply above link
+
+
+
+
+
+http://localhost:9191/customer/myorders/1  (cutomer get with product)
+http://localhost:9191/item/1  (item get)
+http://localhost:9191/itemDetails/  (itemDetails post) /1
+
+"id":1,
+    "name":"s10",
+    "design":"samsung",
+    "price":100,
+    "size":"meduim"
+
+
+customer entity
+
+  "custName":"maibu",
+    "custAddress":"Hyderabad",
+    "pid":"1"
+
+
+
+maibupasha123  username
+Mdmaibubpasha332# docker hub password
+
+
+
